@@ -178,7 +178,7 @@ def receiveMessage():
         #print("checkpack")
         if EXPsequence > mySequence:
             mySequence = int(EXPsequence) #save the next expected
-            print("mysequence:",mySequence)
+            #print("mysequence:",mySequence)
     #clientSocket.sendto(packets[EXPsequence],(serverName, serverPort))
     return True
 
