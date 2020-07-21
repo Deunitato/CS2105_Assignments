@@ -28,10 +28,6 @@ import zlib
 #5 Go to sending if have
 
 
-
-
-
-
 #Global variables are here and initialised
 serverName = 'localhost'
 serverPort = int(sys.argv[1]) #Get the arguments
